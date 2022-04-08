@@ -36,3 +36,14 @@
             }
             Console.ReadLine();
 ***********************************************************************************************************************************************************************
+ int sayi = 0;
+            Console.WriteLine("Lütfen bir sayı giriniz:");
+            Convert.ToInt32(Console.ReadLine());
+            string kelime = "";
+            Console.WriteLine("Kelime giriniz:");
+            Console.ReadLine();
+            ******************************************************************************************************************************************************************************************
+             string cümle = "";
+            Console.WriteLine("Lütfen cümlenizi giriniz:");
+            Console.ReadLine();
+            var result = cümle.Length();
