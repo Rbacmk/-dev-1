@@ -14,4 +14,25 @@
             }
             Console.ReadLine() ;
             *************************************************************************************************************************************
-            
+             int sayiM = 0;
+            int sayiN = 0;
+            Console.WriteLine("lütfen m sayısını giriniz:");
+            Console.WriteLine("Lütfen n sayısını giriniz:");
+            Convert.ToInt32(Console.ReadLine());
+            Convert.ToInt32(Console.ReadLine());
+            if (sayiM == sayiN)
+            {
+                Console.WriteLine("M ve N sayısı birbirine eşittir.");
+
+            }
+            else if (sayiM % sayiN == 1)
+            {
+                Console.WriteLine(" M sayısı N sayısına tam bölünmüyor.");
+
+            }
+            else
+            {
+                Console.WriteLine("M sayısı N sayısına tam bölünüyor.");
+            }
+            Console.ReadLine();
+***********************************************************************************************************************************************************************
